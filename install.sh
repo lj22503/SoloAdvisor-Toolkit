@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Investment Advisory Skills 安装脚本
+# 一人投顾工具包 安装脚本
 # 用途：将投顾技能库安装到本地，使AI能自动调用
 
 set -e
 
 echo "============================================"
-echo "Investment Advisory Skills 安装"
+echo "一人投顾工具包 安装"
 echo "============================================"
 echo ""
 
@@ -18,7 +18,7 @@ fi
 
 # 获取脚本所在目录
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-TARGET_DIR="${HOME}/.claude/skills/investment-advisory"
+TARGET_DIR="${HOME}/.claude/skills/one-person-advisor"
 
 echo "安装目录: $TARGET_DIR"
 echo ""

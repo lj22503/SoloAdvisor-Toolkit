@@ -1,4 +1,4 @@
-# Investment Advisory Skills（投顾助手）
+# 一人投顾工具包
 
 > 让独立理财师用AI提供专业投顾服务，从KYC到投后管理，全流程标准化。
 
