@@ -18,7 +18,7 @@ fi
 
 # 获取脚本所在目录
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-TARGET_DIR="${HOME}/.claude/skills/one-person-advisor"
+TARGET_DIR="${HOME}/.claude/skills/SoloAdvisor-Toolkit"
 
 echo "安装目录: $TARGET_DIR"
 echo ""

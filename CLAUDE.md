@@ -1,10 +1,10 @@
-# 一人投顾工具包（Investment Advisory Skills）
+# SoloAdvisor-Toolkit（一人投顾工具包）
 
 ## 项目概述
 
 投顾（Investment Advisory）服务商的 AI 技能系统，覆盖从客户了解（KYC）到投资建议、组合管理、合规沟通的完整服务流程。
 
-> 名字：一款面向独立理财师的投顾工具包
+> 一款面向独立理财师的投顾工具包
 
 ## 三层架构
 
