@@ -184,6 +184,18 @@ trigger:
 - 合规检查是提示性质，最终合规责任由持牌投顾承担
 - 历史业绩数据需自行核实，AI输出的业绩数据需标注"过往不代表未来"
 
+## 🔗 工具链联动
+
+本仓库是 FinAI 工具生态的一部分，与其他仓库协作：
+
+| 仓库 | 定位 | 与本仓库的关系 |
+|------|------|---------------|
+| [awesome-finai-tools-zn](https://github.com/lj22503/awesome-finai-tools-zn) | 数据底座 | 提供工具清单+机构Skill数据 |
+| [invest-brain](https://github.com/lj22503/invest-brain) | 工具推荐引擎 | 基于场景自动推荐工具 |
+| [investment-buddy-pet](https://github.com/lj22503/investment-buddy-pet) | 人格化投顾 | 按投资人格匹配工具箱 |
+| [SoloAdvisor-Toolkit](https://github.com/lj22503/SoloAdvisor-Toolkit) | 投顾流程工具包 | KYC→配置→组合→报告 |
+| [knowledge-workflow](https://github.com/lj22503/knowledge-workflow) | 知识管理 | 收集→打标→存储→产出 |
+
 ## 授权
 
 MIT License — 可免费使用，商用请注明来源
