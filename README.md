@@ -1,6 +1,20 @@
-# 一人投顾工具包
+# 一人投顾工具包 (SoloAdvisor Toolkit)
 
-> 让独立理财师用AI提供专业投顾服务，从KYC到投后管理，全流程标准化。
+> 让独立理财师用 AI 提供专业投顾服务，从 KYC 到投后管理，全流程标准化。
+
+<p align="center">
+  <a href="#快速开始"><img src="https://img.shields.io/badge/5分钟_上手-d6a52e?style=for-the-badge" alt="快速开始"/></a>
+  <a href="https://github.com/lj22503/SoloAdvisor-Toolkit/blob/main/README_EN.md"><img src="https://img.shields.io/badge/English-README-blue?style=for-the-badge" alt="English README"/></a>
+  <a href="https://github.com/lj22503/SoloAdvisor-Toolkit/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-AI_Ready-green?style=for-the-badge" alt="llms.txt"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License"/></a>
+  <a href="#🔗-工具链联动"><img src="https://img.shields.io/badge/FinAI-生态-purple?style=for-the-badge" alt="FinAI 生态"/></a>
+</p>
+
+<p align="center">
+  <strong>13 个投顾 Skill · 7 个合规 Gate · KYC 到投后全流程</strong>
+</p>
+
+<!-- TODO: 添加 ≤10 秒的演示 GIF，提升 50% 转化率（见 GitHub 增长策略报告） -->
 
 ## 解决什么问题？
 
@@ -64,13 +78,13 @@ Gate1      Gate2      Gate3       Gate4      Gate5       Gate6    Gate7
 
 ```bash
 # 方式1：运行安装脚本
-git clone <仓库地址> investment-advisory-skills
+git clone https://github.com/lj22503/SoloAdvisor-Toolkit.git investment-advisory-skills
 cd investment-advisory-skills
 bash install.sh
 
 # 方式2：手动安装
 # 1. Clone仓库
-git clone <仓库地址> investment-advisory-skills
+git clone https://github.com/lj22503/SoloAdvisor-Toolkit.git investment-advisory-skills
 
 # 2. 在项目CLAUDE.md中添加引用
 # 在你的项目CLAUDE.md中加入：
