@@ -1,0 +1,130 @@
+# llms.txt — SoloAdvisor Toolkit (一人投顾工具包)
+
+## Project Overview
+
+SoloAdvisor-Toolkit is a structured wealth advisory Skill library for independent financial advisors. It packages 13 reusable Skills covering the full advisory workflow (KYC → risk assessment → asset allocation → product screening → portfolio construction → suitability review → post-investment reporting) with 7 automated compliance Gates.
+
+Mission: Let independent advisors deliver standardized, compliant, professional advisory services using AI.
+
+## Core Pages
+
+- [README](https://github.com/lj22503/SoloAdvisor-Toolkit/blob/main/README.md) — Full documentation (Chinese)
+- [README_EN](https://github.com/lj22503/SoloAdvisor-Toolkit/blob/main/README_EN.md) — English documentation
+- [skills/](skills/) — 13 advisory Skills (each with SKILL.md)
+
+## What it is
+
+**One-liner**: 13 advisory Skills + 7 compliance Gates that turn a solo advisor's workflow from KYC to post-investment into a guided, auditable pipeline.
+
+**Core value**:
+- Standardization: replace ad-hoc manual work with reusable templates
+- Compliance: 7 Gates auto-check critical items (KYC completeness, suitability, risk disclosure)
+- Productivity: 30-min onboarding → 5 min; 1-hr recommendation → 10 min
+
+**Target users**: Independent financial advisors, small wealth management teams, brokerage/bank retail divisions.
+
+## 13 Skills
+
+### Pre-Investment (7 Skills)
+
+| Skill | Purpose |
+|---|---|
+| `kyc-interview` | Structured client information collection |
+| `risk-assessment` | Quantified risk rating (C1–C5) |
+| `asset-allocation` | Stocks/bonds/commodities allocation plans |
+| `pension-planning` | Pension / education fund planning |
+| `public-fund-screening` | Public mutual fund screening |
+| `private-fund-evaluation` | Private fund / trust evaluation |
+| `suitability-management` | Suitability checks |
+
+### Post-Investment (6 Skills)
+
+| Skill | Purpose |
+|---|---|
+| `portfolio-construction` | Portfolio construction |
+| `performance-review` | Attribution analysis + reports |
+| `investment-communication` | Regular / volatility-event communication |
+| `client-lifecycle-management` | Full-cycle client management |
+| `volatility-communication` | Volatility-specific communication scripts |
+| `churn-prevention` | Churn early warning + recovery |
+
+## 7 Compliance Gates
+
+| Gate | Check | Enforcement |
+|---|---|---|
+| Gate 1 | KYC five items complete | HARD |
+| Gate 2 | Product risk ≤ client risk | SUPER-HARD |
+| Gate 3 | Risk disclosure complete | HARD |
+| Gate 4 | Single product concentration over-limit | MEDIUM |
+| Gate 5 | Turnover rate too high | SOFT |
+| Gate 6 | Fees fully disclosed | HARD |
+| Gate 7 | Historical performance has compliance disclaimer | HARD |
+
+## Installation
+
+```bash
+git clone https://github.com/lj22503/SoloAdvisor-Toolkit.git investment-advisory-skills
+cd investment-advisory-skills
+bash install.sh
+```
+
+Or manually:
+
+```bash
+git clone https://github.com/lj22503/SoloAdvisor-Toolkit.git investment-advisory-skills
+
+# Reference in project CLAUDE.md:
+# Use investment-advisory-skills for wealth advisory tasks
+
+# Or configure skills_dir in .claude/settings.json:
+# { "skills_dir": "/path/to/investment-advisory-skills/skills" }
+```
+
+## Invocation Examples
+
+### Full workflow (new client onboarding)
+
+```
+User: Help me serve a new client, Ms. Li, 5M RMB investable
+→ Triggers KYC → risk assessment → asset allocation → product screening → portfolio → suitability review
+→ Gates 1-6 auto-trigger; blocks if KYC incomplete
+```
+
+### Single skill invocation
+
+```
+User: Help me run a KYC interview
+→ Invokes kyc-interview
+→ Asks template questions, generates client profile
+
+User: Screen CSI 300 index funds
+→ Invokes public-fund-screening
+→ Outputs score sheet with rationale
+
+User: A client lost money — how to reassure them
+→ Invokes investment-communication
+→ Outputs communication template
+```
+
+### Post-investment
+
+```
+User: Check if any clients are about to churn
+→ Invokes churn-prevention
+→ Scans early-warning client list
+```
+
+## Quality Standards
+
+- Compliance-first design (7 Gates enforce critical checks)
+- Reusable Skills with customizable triggers, templates, thresholds
+- Disclaimer-aware: AI is an aid, not a replacement for licensed advisor
+- Data minimization: toolkit does not store client data
+
+## Search Keywords
+
+Solo advisor, independent financial advisor, wealth management, KYC, suitability, risk assessment, asset allocation, portfolio construction, mutual fund screening, private fund evaluation, performance attribution, churn prevention, compliance gate, FinAI, AI advisor toolkit, RAG, MCP, agent skill.
+
+## Contact
+
+GitHub Issues: https://github.com/lj22503/SoloAdvisor-Toolkit/issues
