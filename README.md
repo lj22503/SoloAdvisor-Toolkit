@@ -14,7 +14,6 @@
   <strong>13 个投顾 Skill · 7 个合规 Gate · KYC 到投后全流程</strong>
 </p>
 
-<!-- TODO: 添加 ≤10 秒的演示 GIF，提升 50% 转化率（见 GitHub 增长策略报告） -->
 
 ## 解决什么问题？
 
