@@ -1,5 +1,7 @@
 # SoloAdvisor-Toolkit（一人投顾工具包）
 
+> **命名**：本项目 GitHub 仓库名 `lj22503/SoloAdvisor-Toolkit`，本地目录 `D:\claudework\investment-advisory-skills` 是历史遗留名。统一以 GitHub 名 **SoloAdvisor-Toolkit** 为准。
+
 ## 项目概述
 
 投顾（Investment Advisory）服务商的 AI 技能系统，覆盖从客户了解（KYC）到投资建议、组合管理、合规沟通的完整服务流程。
